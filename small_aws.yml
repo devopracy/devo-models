@@ -1,0 +1,13 @@
+name: 'small aws cloud'
+description: 'basic development cloud for devopracy'
+root:
+  dev:
+  ops:
+    base:
+      repos:
+        - 'devopracy/devopracy-base-cookbook'
+        - 'devopracy/devopracy-base'
+    buildserver:
+      repos:
+        - 'devopracy/devopracy-buildserver-cookbook'
+
